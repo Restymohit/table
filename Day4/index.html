@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display user details</title>
+        <style>
+            #box{
+                width:500px;
+                height:auto;
+                border: 2px solid black;
+                border-radius: 10px;
+
+            }
+            ul{
+                list-style-type: disc;
+            }
+            #list1 > li:nth-child(odd){
+                color: red;
+            }
+            #list2 li::marker{
+                color:rgb(228, 164, 175);
+            }
+        </style>
+</head>
+<body>
+    <div id="box">
+        <ul id="list1">
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+            <li>Item-8</li>
+            <li>Item-9</li>
+            <li>Item-10</li>
+        </ul>
+        <br>
+        <ul id="list2">
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+            <li>Item-1</li>
+        </ul>
+    </div>
+</body>
+</html>
